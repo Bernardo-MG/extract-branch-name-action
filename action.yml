@@ -1,0 +1,12 @@
+name: 'Extract Branch Name Action'
+description: 'Extracts the name of the current branch'
+auth0r: 'Bernardo Martínez Garrido'
+outputs:
+  branchName:
+    description: 'Name of the current branch'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'git-branch'
+  color: 'green'
