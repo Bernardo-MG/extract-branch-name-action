@@ -3,6 +3,6 @@
 # Fails if any commands returns a non-zero value
 set -e
 
-##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})
+##[set-output name=branchName;]$(echo ${GITHUB_REF#refs/heads/})
 
 exit 0
