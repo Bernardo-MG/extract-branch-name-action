@@ -3,7 +3,7 @@ description: 'Extracts the name of the current branch'
 author: 'Bernardo Martínez Garrido'
 outputs:
   branchName:
-    description: 'Name of the current branch'
+    description: 'Name of the current branch.'
 runs:
   using: 'docker'
   image: 'Dockerfile'
