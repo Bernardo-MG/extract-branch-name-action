@@ -1,8 +1,12 @@
 # Extract Branch Name Action
 
-Extracts the name of the current branch.
+Extracts the name of the current branch and stores it into the branchName output.
 
-## Usage
+## Outputs
+
+| Output     | Description                 |
+|------------|-----------------------------|
+| branchName | Name of the current branch. |
 
 ## Collaborate
 
