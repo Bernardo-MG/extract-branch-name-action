@@ -1,12 +1,12 @@
 # Extract Branch Name Action
 
-Extracts the name of the current branch and stores it into the branchName output.
+Extracts the name of the current Github branch and stores it into the branchName output.
 
 ## Outputs
 
-| Output     | Description                 |
-|------------|-----------------------------|
-| branchName | Name of the current branch. |
+| Output     | Description                |
+|------------|----------------------------|
+| branchName | The current Github branch. |
 
 ## Usage
 
