@@ -11,6 +11,6 @@
 # Fails if any commands returns a non-zero value
 set -e
 
-echo ::set-output name=branchName::"${GITHUB_REF#refs/heads/}"
+echo "name=branchName::"${GITHUB_REF#refs/heads/}" >> $GITHUB_OUTPUT
 
 exit 0
